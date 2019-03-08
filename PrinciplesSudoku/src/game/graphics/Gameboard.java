@@ -1,5 +1,5 @@
-package game;
+package game.graphics;
 
 public class Gameboard {
-
+	
 }
