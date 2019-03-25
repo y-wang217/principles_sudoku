@@ -1,5 +1,8 @@
 package game.logic;
 
+/**
+ * maps int:boolean pairs
+ */
 import java.util.HashMap;
 
 public class NumberMap {

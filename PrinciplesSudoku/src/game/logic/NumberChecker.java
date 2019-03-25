@@ -25,7 +25,7 @@ public class NumberChecker {
 		return rows[row].has(num) || cols[col].has(num) || grids[grid].has(num);
 	}
 	
-	public int gridNum(int row, int col) {
+	public static int gridNum(int row, int col) {
 		     if(0<=row && row<=2 && 0<=col && col<=2) return 0;
 		else if(0<=row && row<=2 && 3<=col && col<=5) return 1;
 		else if(0<=row && row<=2 && 6<=col && col<=8) return 2;
@@ -38,6 +38,7 @@ public class NumberChecker {
 		
 		return -1;
 	}
+	
 	
 	public void insert(int row, int col, int num) {
 		rows[row].getMap().put(num, true);
