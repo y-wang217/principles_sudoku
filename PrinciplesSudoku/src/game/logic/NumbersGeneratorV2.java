@@ -86,8 +86,11 @@ public class NumbersGeneratorV2 {
 		if (arr.size() == 0) {
 			return -1;
 		}
-		int max = arr.size() - 1;
-		int x = (int) (Math.random() * max);
+		int x = count%arr.size();
+		if (count % 10 == 0) {
+			int max = arr.size() - 1;
+			x = (int) (Math.random() * max);
+		}
 		return arr.get(x);
 	}
 
@@ -242,7 +245,6 @@ public class NumbersGeneratorV2 {
 			System.out.println("]");
 		}
 	}
-
 
 	public void printTracker() {
 		for (Coord c : availableNumTracker.keySet()) {
