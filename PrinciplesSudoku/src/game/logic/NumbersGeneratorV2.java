@@ -17,6 +17,7 @@ import game.logic.numbers.Coord;
  * 
  * @author yale
  *
+ * fails at ~5000 iterations
  */
 public class NumbersGeneratorV2 {
 	File file;
