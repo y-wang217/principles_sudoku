@@ -259,4 +259,8 @@ public class NumbersGeneratorV2 {
 
 		test.printNums();
 	}
+        
+        public int[][] getBoard() {
+            return game_numbers;
+        }
 }
