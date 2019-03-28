@@ -1,10 +1,10 @@
 # Sudoku Game
 A project engaging in creating a game of Sudoku
 
-##Getting Started
+## Getting Started
 This project focuses on an algorithm for generating the board of a sudoku game from scratch.
 
-###Files in project:
+### Files in project:
 NumbersGeneratorV2 - class: does the bulk work for creating the sudoku board
 -> Designed and implemented from scratch
 
